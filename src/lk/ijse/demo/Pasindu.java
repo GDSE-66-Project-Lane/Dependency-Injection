@@ -7,6 +7,7 @@ public class Pasindu {
 
     Wedding wedding;
 
+    //Constructor Injection
     public Pasindu(Wedding w){
         this.wedding=w;
     }
