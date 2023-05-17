@@ -2,7 +2,7 @@ package lk.ijse.demo;
 //if the dependency is injected to a class through the property then it is known as property injection
 
 //if the dependency can be set while creating the object then we can use this constructor injection method
-public class Pasindu {
+public class Pasindu implements DI {
 //    Wedding wedding=new Saduni();//property injection
 
 
@@ -16,6 +16,7 @@ public class Pasindu {
     //setter method injection
     //if we get to know about the dependency after
     //passing the above two methods then this method is used to set the dependency
+    @Override
     public void setInjection(Wedding w){
         this.wedding=w;
     }
