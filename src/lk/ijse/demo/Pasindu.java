@@ -1,8 +1,9 @@
 package lk.ijse.demo;
+//if the dependency is injected to a class through the property then it is known as property injection
 
 public class Pasindu {
-    //property injection
-    Wedding wedding=new Saduni();
+    Wedding wedding=new Saduni();//property injection
+
     public void pasinduIsChatting(){
         wedding.chattingWithPasindu();
     }
