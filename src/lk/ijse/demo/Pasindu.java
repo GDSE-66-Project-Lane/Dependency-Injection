@@ -1,13 +1,13 @@
 package lk.ijse.demo;
 
 public class Pasindu {
+    //property injection
+    Wedding wedding=new Saduni();
     public void pasinduIsChatting(){
-        Wedding wedding=new Saduni();
         wedding.chattingWithPasindu();
     }
 
     public void danceWithSaduni(){
-        Wedding wedding=new Saduni();
         wedding.dancing();
     }
 }
