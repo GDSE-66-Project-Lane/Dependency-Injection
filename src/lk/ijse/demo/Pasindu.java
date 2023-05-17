@@ -9,10 +9,16 @@ public class Pasindu {
     Wedding wedding;
 
     //Constructor Injection
-    public Pasindu(Wedding w){
-        this.wedding=w; // dependency is setted through the constructor
-    }
+//    public Pasindu(Wedding w){
+//        this.wedding=w; // dependency is setted through the constructor
+//    }
 
+    //setter method injection
+    //if we get to know about the dependency after
+    //passing the above two methods then this method is used to set the dependency
+    public void setInjection(Wedding w){
+        this.wedding=w;
+    }
 
 
     public void pasinduIsChatting(){
