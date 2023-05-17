@@ -16,6 +16,14 @@ public class Pasindu implements DI {
     //setter method injection
     //if we get to know about the dependency after
     //passing the above two methods then this method is used to set the dependency
+//    @Override
+//    public void setInjection(Wedding w){
+//        this.wedding=w;
+//    }
+
+    //Interface through Injection
+    //This is the extended version of previous method (Setter method injection)
+    //To apply DI through loose coupling we can use this method
     @Override
     public void setInjection(Wedding w){
         this.wedding=w;
